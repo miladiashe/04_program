@@ -11,6 +11,8 @@ int main(int argc, char *argv[]) {
 	a=3;
 	b=4;
 	c=5;
+	z=3;
+	
 	
 	y = a*x*x+b*x+c;
 	m = (x+y+z)/3;
