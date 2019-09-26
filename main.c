@@ -4,14 +4,27 @@
 /* run this program using the console pauser or add your own getch, system("pause") or input loop */
 
 int main(int argc, char *argv[]) {
-	int x=3;
-	int cond1, cond2;
+	int num1, num2;
+	int a, b, c, d, e;
 	
-	cond1 = 2 < x && x < 5;
-	cond2 = x > 1 || x < 4 && x < 3;
+	printf("enter two integer : ");
+	scanf ("%d%d", &num1, &num2);
 	
-	printf("cond1=%d, cond2=%d",
-	cond1, cond2);
+	a = num1 + num2;
+	b = num1 - num2;
+	c = num1 * num2;
+	d = num1 / num2;
+	e = num1 % num2;
+	
+	printf("+ result is : %d\n", a);
+	
+	printf("- result is : %d\n", b);
+	
+	printf("* result is : %d\n", c);
+	
+	printf("/ result is : %d\n", d);
+	
+	printf("%% result is : %d\n", e);
 	
 	return 0;
 }
